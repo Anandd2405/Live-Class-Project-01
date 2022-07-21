@@ -98,19 +98,31 @@ button {
   margin-bottom: 5rem;
 }
 
-.button-join,
+.button-join{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+}
 .button-email {
   font-family: "Orbitron", sans-serif;
   font-weight: 800;
 }
 
 .button-email {
-  color: (59, 59, 59);
+  height: 30px;
+  width: 210px;
+  color:black;
+  background-color: black;
+  
 }
 
+
+
 .button-join {
-  background-color: #000;
-  color: #fff;
+  height: 30px;
+  width: 210px;
+  color:black;
+  background-color: black;
+  
 }
 
 .contact {
@@ -120,6 +132,8 @@ button {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   margin-top: 5rem;
+  
+  
 }
 
 .icons {
@@ -128,7 +142,6 @@ button {
 .contact-heading {
   font-weight: 400;
   font-size: larger;
-  color: 59, 59, 59;
   margin-bottom: 1rem;
 }
 
@@ -154,4 +167,35 @@ button {
   bottom: 60px;
   left: 43%;
   width: 50px;
+}
+
+.A1{
+  color: white;
+  text-decoration: none;
+ 
+}
+.A2{
+  color: white;
+  text-decoration: none;
+}
+
+.A3{
+  color: white;
+  
+}
+.A4{
+  color: white;
+  
+}
+.A5{
+  color: white;
+  
+}
+.A6{
+  color: white;
+  
+}
+.A7{
+  color:black;
+  background-color: black;
 }
