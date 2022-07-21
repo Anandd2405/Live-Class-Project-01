@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem, 8rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.list-item:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+}
+.square {
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+}
+
+.hero-image {
+  width: 450px;
+}
+
+button {
+  padding: 0.5rem, 3rem;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+/* Hero Porton*/
+
+.hero-container {
+  margin: 5rem 8rem 2rem 8rem;
+  position: relative;
+  display: flex;
+  gap: 5rem;
+}
+
+.square {
+  position: absolute;
+  bottom: -125px;
+  left: 250px;
+  z-index: -1;
+}
+
+.hero-container-left {
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  margin: 4rem 2rem 2rem 4rem;
+}
+
+.hero-description {
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+  text-align: center;
+  color: rgb(69, 69, 69);
+  margin-bottom: 5rem;
+}
+
+.button-join,
+.button-email {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+}
+
+.button-email {
+  color: (59, 59, 59);
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5rem;
+}
+
+.icons {
+}
+
+.contact-heading {
+  font-weight: 400;
+  font-size: larger;
+  color: 59, 59, 59;
+  margin-bottom: 1rem;
+}
+
+/* Additional images */
+
+.star,
+.star2,
+.globe {
+  position: absolute;
+}
+
+.globe {
+  top: 100px;
+  left: 50%;
+}
+
+.star {
+  top: 10px;
+  right: 10%;
+}
+
+.star2 {
+  bottom: 60px;
+  left: 43%;
+  width: 50px;
+}
